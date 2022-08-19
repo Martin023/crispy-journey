@@ -35,7 +35,8 @@
     </nav>
 
     <!-- hero section -->
-    <section class="bg-dark text-light p-5 text-center">
+    <!-- bg dark for a darkbackground, text light for light text, p-5 for padding on all sides, text center for centering text, text sm start for starting text on small screens --> -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
         <div class="container">
             <!-- d flex for adding flxbox the middle value adds a breakpoint ie use flex box to the breakpoint -->
             <div class="d-sm-flex">
@@ -52,8 +53,9 @@
                         Start the enrollment
                     </button>
                 </div>
-                <!-- image fluid classfor responsive image and tofit inthe container and the w-50 class for reducing width by 50% -->
-                <img src="img/hero-image.svg" alt="" class="img-fluid w-50">
+                <!-- image fluid class for responsive image and tofit inthe container and the w-50 class for reducing width by 50% -->
+                <!-- d for display eg d -none for hiding the image, d-sm-block for hiding the image on small screens -->
+                <img src="img/hero-image.svg" alt="" class="img-fluid w-50 d-none d-sm-block">
             </div>
         </div>
     </section>
